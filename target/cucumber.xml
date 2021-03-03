@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="223.148">
+    <testcase classname="Menu" name="Acessar Menu" time="22.802">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Automatizados&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 79e96647c3391ed733dcfd5fa77bdba5&#10;*** Element info: {Using=link text, value=Testes Automatizados}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Testes Automatizados"....................failed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-automatizados/" e mostrar "//TESTES AUTOMATIZADOS".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Testes Automatizados"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79e96647c3391ed733dcfd5fa77bdba5
+*** Element info: {Using=link text, value=Testes Automatizados}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho "Testes Automatizados"(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 2" time="23.101">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Funcionais Não Funcionais&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 596a09fbc9ec13ea7ad73f620628a4f9&#10;*** Element info: {Using=link text, value=Testes Funcionais Não Funcionais}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Testes Funcionais Não Funcionais"........failed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/" e mostrar "//TESTES FUNCIONAIS NÃO FUNCIONAIS".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Testes Funcionais Não Funcionais"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 596a09fbc9ec13ea7ad73f620628a4f9
+*** Element info: {Using=link text, value=Testes Funcionais Não Funcionais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho "Testes Funcionais Não Funcionais"(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 3" time="24.322">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Manuais&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 18fe1994367c31eedf3335593e302067&#10;*** Element info: {Using=link text, value=Testes Manuais}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Testes Manuais"..........................failed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-manuais/" e mostrar "//TESTES MANUAIS".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Testes Manuais"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18fe1994367c31eedf3335593e302067
+*** Element info: {Using=link text, value=Testes Manuais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho "Testes Manuais"(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 4" time="25.559">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Testes Mobile"...........................passed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-mobile/" e mostrar "//TESTES MOBILE".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 5" time="23.943">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Fábrica de Testes&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 779981a550f9ee7dbfbe4801488b1a8d&#10;*** Element info: {Using=link text, value=Fábrica de Testes}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Fábrica de Testes".......................failed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-fabrica/" e mostrar "//FÁBRICA DE TESTES".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Fábrica de Testes"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 779981a550f9ee7dbfbe4801488b1a8d
+*** Element info: {Using=link text, value=Fábrica de Testes}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho "Fábrica de Testes"(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 6" time="23.73">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Consultoria".............................passed
+Entao deve ir para "https://auditeste.com.br/servicos/testes-consultoria/" e mostrar "//CONSULTORIA".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 7" time="27.681">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Crowdsourced Auditeste"..................passed
+Entao deve ir para "https://auditeste.com.br/servicos/crowdsourced-auditeste/" e mostrar "//CROWDSOURCED AUDITESTE".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 8" time="27.016">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Alocação de Profissionais"...............passed
+Entao deve ir para "https://auditeste.com.br/servicos/teste-alocacao/" e mostrar "//ALOCAÇÃO DE PROFISSIONAIS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu" name="Acessar Menu 9" time="24.841">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Automação de Processos"..................passed
+Entao deve ir para "https://auditeste.com.br/servicos/automacao-de-processos/" e mostrar "//AUTOMAÇÃO DE PROCESSOS".passed
+]]></system-out>
+    </testcase>
+</testsuite>

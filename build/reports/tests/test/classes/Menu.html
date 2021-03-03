@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Menu</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Menu</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Menu</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">4</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3m43.13s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">55%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Acessar Menu #1"></a>
+<h3 class="failures">Acessar Menu #1</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Automatizados&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79e96647c3391ed733dcfd5fa77bdba5
+*** Element info: {Using=link text, value=Testes Automatizados}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho &quot;Testes Automatizados&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Acessar Menu #2"></a>
+<h3 class="failures">Acessar Menu #2</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Funcionais Não Funcionais&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 596a09fbc9ec13ea7ad73f620628a4f9
+*** Element info: {Using=link text, value=Testes Funcionais Não Funcionais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho &quot;Testes Funcionais Não Funcionais&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Acessar Menu #3"></a>
+<h3 class="failures">Acessar Menu #3</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Manuais&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18fe1994367c31eedf3335593e302067
+*** Element info: {Using=link text, value=Testes Manuais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho &quot;Testes Manuais&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Acessar Menu #5"></a>
+<h3 class="failures">Acessar Menu #5</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Fábrica de Testes&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 779981a550f9ee7dbfbe4801488b1a8d
+*** Element info: {Using=link text, value=Fábrica de Testes}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at ✽.eu clico no Menu e escolho &quot;Fábrica de Testes&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Acessar Menu #1</td>
+<td class="failures">22.899s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Acessar Menu #2</td>
+<td class="failures">23.107s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Acessar Menu #3</td>
+<td class="failures">24.329s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Acessar Menu #4</td>
+<td class="success">25.563s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Acessar Menu #5</td>
+<td class="failures">23.948s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Acessar Menu #6</td>
+<td class="success">23.733s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Acessar Menu #7</td>
+<td class="success">27.685s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Acessar Menu #8</td>
+<td class="success">27.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Acessar Menu #9</td>
+<td class="success">24.845s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+Esquema do Cenario: Acessar Menu                                                                                  ?[90m# src/test/java/features/Portal.feature:11?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                               ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[31mQuando ?[0m?[31meu clico no Menu e escolho ?[0m?[31m?[1m&quot;Testes Automatizados&quot;?[0m                                                        ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Automatizados&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79e96647c3391ed733dcfd5fa77bdba5
+*** Element info: {Using=link text, value=Testes Automatizados}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at âœ½.eu clico no Menu e escolho &quot;Testes Automatizados&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+?[0m
+  ?[36mEntao ?[0m?[36mdeve ir para ?[0m?[36m?[1m&quot;https://auditeste.com.br/servicos/testes-automatizados/&quot;?[0m?[36m e mostrar ?[0m?[36m?[1m&quot;//TESTES AUTOMATIZADOS&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                                                          ?[90m# src/test/java/features/Portal.feature:12?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                                       ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[31mQuando ?[0m?[31meu clico no Menu e escolho ?[0m?[31m?[1m&quot;Testes Funcionais NÃ£o Funcionais&quot;?[0m                                                                    ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Funcionais NÃ£o Funcionais&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 596a09fbc9ec13ea7ad73f620628a4f9
+*** Element info: {Using=link text, value=Testes Funcionais NÃ£o Funcionais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at âœ½.eu clico no Menu e escolho &quot;Testes Funcionais NÃ£o Funcionais&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+?[0m
+  ?[36mEntao ?[0m?[36mdeve ir para ?[0m?[36m?[1m&quot;https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/&quot;?[0m?[36m e mostrar ?[0m?[36m?[1m&quot;//TESTES FUNCIONAIS NÃƒO FUNCIONAIS&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                      ?[90m# src/test/java/features/Portal.feature:13?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                   ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[31mQuando ?[0m?[31meu clico no Menu e escolho ?[0m?[31m?[1m&quot;Testes Manuais&quot;?[0m                                                  ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Testes Manuais&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18fe1994367c31eedf3335593e302067
+*** Element info: {Using=link text, value=Testes Manuais}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at âœ½.eu clico no Menu e escolho &quot;Testes Manuais&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+?[0m
+  ?[36mEntao ?[0m?[36mdeve ir para ?[0m?[36m?[1m&quot;https://auditeste.com.br/servicos/testes-manuais/&quot;?[0m?[36m e mostrar ?[0m?[36m?[1m&quot;//TESTES MANUAIS&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                    ?[90m# src/test/java/features/Portal.feature:14?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                 ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m&quot;Testes Mobile&quot;?[0m                                                 ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m&quot;https://auditeste.com.br/servicos/testes-mobile/&quot;?[0m?[32m e mostrar ?[0m?[32m?[1m&quot;//TESTES MOBILE&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                         ?[90m# src/test/java/features/Portal.feature:15?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                      ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[31mQuando ?[0m?[31meu clico no Menu e escolho ?[0m?[31m?[1m&quot;FÃ¡brica de Testes&quot;?[0m                                                  ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;FÃ¡brica de Testes&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\Chris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 779981a550f9ee7dbfbe4801488b1a8d
+*** Element info: {Using=link text, value=FÃ¡brica de Testes}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(PortalSteps.java:45)
+	at âœ½.eu clico no Menu e escolho &quot;FÃ¡brica de Testes&quot;(file:///D:/chris/Documents/ProjetoAudiTesteWeb/src/test/java/features/Portal.feature:7)
+?[0m
+  ?[36mEntao ?[0m?[36mdeve ir para ?[0m?[36m?[1m&quot;https://auditeste.com.br/servicos/testes-fabrica/&quot;?[0m?[36m e mostrar ?[0m?[36m?[1m&quot;//FÃ�BRICA DE TESTES&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                       ?[90m# src/test/java/features/Portal.feature:16?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                    ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m&quot;Consultoria&quot;?[0m                                                      ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m&quot;https://auditeste.com.br/servicos/testes-consultoria/&quot;?[0m?[32m e mostrar ?[0m?[32m?[1m&quot;//CONSULTORIA&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                                      ?[90m# src/test/java/features/Portal.feature:17?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                   ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m&quot;Crowdsourced Auditeste&quot;?[0m                                                          ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m&quot;https://auditeste.com.br/servicos/crowdsourced-auditeste/&quot;?[0m?[32m e mostrar ?[0m?[32m?[1m&quot;//CROWDSOURCED AUDITESTE&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                                 ?[90m# src/test/java/features/Portal.feature:18?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                              ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m&quot;AlocaÃ§Ã£o de Profissionais&quot;?[0m                                                  ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m&quot;https://auditeste.com.br/servicos/teste-alocacao/&quot;?[0m?[32m e mostrar ?[0m?[32m?[1m&quot;//ALOCAÃ‡ÃƒO DE PROFISSIONAIS&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu                                                                                      ?[90m# src/test/java/features/Portal.feature:19?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                   ?[90m# step_definitions.PortalSteps.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m&quot;AutomaÃ§Ã£o de Processos&quot;?[0m                                                          ?[90m# step_definitions.PortalSteps.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m&quot;https://auditeste.com.br/servicos/automacao-de-processos/&quot;?[0m?[32m e mostrar ?[0m?[32m?[1m&quot;//AUTOMAÃ‡ÃƒO DE PROCESSOS&quot;?[0m ?[90m# step_definitions.PortalSteps.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 33772
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:14:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 42610
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:14:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 47865
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:14:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 4781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:15:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 35367
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:15:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 5895
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:16:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 23456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:16:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 26085
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:17:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 11021
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 02, 2021 9:17:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 2 de mar. de 2021 21:17:51</p>
+</div>
+</div>
+</body>
+</html>
