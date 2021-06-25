@@ -1,6 +1,6 @@
 # Automação Web com Java e BDD
 
-*	Este proejto teve como objetivo Automatizar o portal da Empresa Auditeste
+*	Este projeto teve como objetivo Automatizar o portal da Empresa Auditeste
 
 *	Nele pode-se criar casos de testes com BDD e Cucumber
 
